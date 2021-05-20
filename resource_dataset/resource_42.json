@@ -1,0 +1,51 @@
+[
+    {
+        "id": 0,
+        "cpu": 20,
+        "memory": 1458,
+        "process": 0,
+        "device": 0
+    },
+    {
+        "id": 1,
+        "cpu": 20,
+        "memory": 1458,
+        "process": 0,
+        "device": 0
+    },
+    {
+        "id": 2,
+        "cpu": 20,
+        "memory": 1458,
+        "process": 0,
+        "device": 0
+    },
+    {
+        "id": 3,
+        "cpu": 20,
+        "memory": 1458,
+        "process": 0,
+        "device": 0
+    },
+    {
+        "id": 4,
+        "cpu": 20,
+        "memory": 1458,
+        "process": 0,
+        "device": 0
+    },
+    {
+        "id": 5,
+        "cpu": 20,
+        "memory": 1458,
+        "process": 0,
+        "device": 0
+    },
+    {
+        "id": 6,
+        "cpu": 39,
+        "memory": 1313,
+        "process": 1,
+        "device": 0
+    }
+]

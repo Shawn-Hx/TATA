@@ -1,0 +1,16 @@
+[
+    {
+        "id": 0,
+        "cpu": 23,
+        "memory": 1750,
+        "process": 0,
+        "device": 0
+    },
+    {
+        "id": 1,
+        "cpu": 20,
+        "memory": 1087,
+        "process": 1,
+        "device": 0
+    }
+]

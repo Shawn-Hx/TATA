@@ -1,0 +1,94 @@
+{
+    "operators": [
+        {
+            "id": 0,
+            "vertex_id": 0,
+            "task_id": 0,
+            "is_source": true,
+            "is_sink": false,
+            "cpu": 4,
+            "memory": 34
+        },
+        {
+            "id": 1,
+            "vertex_id": 1,
+            "task_id": 0,
+            "is_source": false,
+            "is_sink": false,
+            "cpu": 6,
+            "memory": 111
+        },
+        {
+            "id": 2,
+            "vertex_id": 1,
+            "task_id": 1,
+            "is_source": false,
+            "is_sink": false,
+            "cpu": 6,
+            "memory": 111
+        },
+        {
+            "id": 3,
+            "vertex_id": 1,
+            "task_id": 2,
+            "is_source": false,
+            "is_sink": false,
+            "cpu": 6,
+            "memory": 111
+        },
+        {
+            "id": 4,
+            "vertex_id": 1,
+            "task_id": 3,
+            "is_source": false,
+            "is_sink": false,
+            "cpu": 6,
+            "memory": 111
+        },
+        {
+            "id": 5,
+            "vertex_id": 2,
+            "task_id": 0,
+            "is_source": false,
+            "is_sink": true,
+            "cpu": 3,
+            "memory": 139
+        }
+    ],
+    "edges": [
+        {
+            "from_id": 0,
+            "to_id": 1
+        },
+        {
+            "from_id": 0,
+            "to_id": 2
+        },
+        {
+            "from_id": 0,
+            "to_id": 3
+        },
+        {
+            "from_id": 0,
+            "to_id": 4
+        },
+        {
+            "from_id": 1,
+            "to_id": 5
+        },
+        {
+            "from_id": 2,
+            "to_id": 5
+        },
+        {
+            "from_id": 3,
+            "to_id": 5
+        },
+        {
+            "from_id": 4,
+            "to_id": 5
+        }
+    ],
+    "max_parallelism": 4,
+    "id": 235
+}

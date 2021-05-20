@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "cpu": 21,
+        "memory": 1910,
+        "process": 0,
+        "device": 0
+    },
+    {
+        "id": 1,
+        "cpu": 21,
+        "memory": 1910,
+        "process": 0,
+        "device": 0
+    },
+    {
+        "id": 2,
+        "cpu": 30,
+        "memory": 1448,
+        "process": 1,
+        "device": 1
+    },
+    {
+        "id": 3,
+        "cpu": 30,
+        "memory": 1448,
+        "process": 1,
+        "device": 1
+    },
+    {
+        "id": 4,
+        "cpu": 30,
+        "memory": 1448,
+        "process": 1,
+        "device": 1
+    }
+]

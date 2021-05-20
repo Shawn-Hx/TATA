@@ -1,0 +1,43 @@
+{
+    "operators": [
+        {
+            "id": 0,
+            "vertex_id": 0,
+            "task_id": 0,
+            "is_source": true,
+            "is_sink": false,
+            "cpu": 1,
+            "memory": 219
+        },
+        {
+            "id": 1,
+            "vertex_id": 1,
+            "task_id": 0,
+            "is_source": false,
+            "is_sink": false,
+            "cpu": 2,
+            "memory": 72
+        },
+        {
+            "id": 2,
+            "vertex_id": 2,
+            "task_id": 0,
+            "is_source": false,
+            "is_sink": true,
+            "cpu": 2,
+            "memory": 238
+        }
+    ],
+    "edges": [
+        {
+            "from_id": 0,
+            "to_id": 1
+        },
+        {
+            "from_id": 1,
+            "to_id": 2
+        }
+    ],
+    "max_parallelism": 1,
+    "id": 96
+}

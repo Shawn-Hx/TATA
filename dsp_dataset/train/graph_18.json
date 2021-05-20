@@ -1,0 +1,60 @@
+{
+    "operators": [
+        {
+            "id": 0,
+            "vertex_id": 0,
+            "task_id": 0,
+            "is_source": true,
+            "is_sink": false,
+            "cpu": 6,
+            "memory": 177
+        },
+        {
+            "id": 1,
+            "vertex_id": 1,
+            "task_id": 0,
+            "is_source": false,
+            "is_sink": false,
+            "cpu": 3,
+            "memory": 180
+        },
+        {
+            "id": 2,
+            "vertex_id": 1,
+            "task_id": 1,
+            "is_source": false,
+            "is_sink": false,
+            "cpu": 3,
+            "memory": 180
+        },
+        {
+            "id": 3,
+            "vertex_id": 2,
+            "task_id": 0,
+            "is_source": false,
+            "is_sink": true,
+            "cpu": 4,
+            "memory": 240
+        }
+    ],
+    "edges": [
+        {
+            "from_id": 0,
+            "to_id": 1
+        },
+        {
+            "from_id": 0,
+            "to_id": 2
+        },
+        {
+            "from_id": 1,
+            "to_id": 3
+        },
+        {
+            "from_id": 2,
+            "to_id": 3
+        }
+    ],
+    "max_parallelism": 2,
+    "id": 18
+}
